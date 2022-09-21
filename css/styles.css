@@ -84,7 +84,7 @@ img {
     font-family: Roboto, sans-serif;
 }
 
-.page  .logo-title {
+.page .logo-title {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
