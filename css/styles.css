@@ -48,7 +48,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-.header-container {
+.container--header {
     align-items: center;
     display: flex;
     border-bottom: 1px solid #ECECEC;
@@ -167,7 +167,7 @@ img {
 
 /* Наші особливості */
 
-.section-main {
+.main {
     background: var(--main-bg-cl);
     padding: 200px 0px;
     text-align: center;
@@ -183,7 +183,7 @@ img {
     
 }
 
-.main-title {
+.main__main-title {
     margin-top: 0;
     margin-bottom: 0;
     margin-bottom: 30px;
@@ -196,7 +196,7 @@ img {
     color: var(--light-txt-cl);
 }
 
-.section-main .btn {
+.main .btn {
     padding: 10px 31px;
     width: 216px;
     border: none;
@@ -213,16 +213,25 @@ img {
     cursor: pointer;
 }
 
+/* Чим ми займаємось */
 
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
-.section-features .features-title {
+.features__title {
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-txt-cl);
+    margin-bottom: 10px;
 }
+
+
+
 .features-list {
     display: flex;
     gap: 30px;
@@ -255,27 +264,24 @@ img {
     overflow: hidden;
   }
   
-.main-list-iteam {
+.features-list__iteam {
     width: 270px;
     list-style: none; 
     margin-bottom: 0px;
     
 }
 
-.features-title {
-    margin-bottom: 10px;
-}
 
-.features-title-description {
+.features__description {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--grey-txt-cl);
 }
-.section-features {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
+
+/* Чим ми займаємось */
+
 .activity {
     padding-bottom: 94px;
 }
@@ -283,7 +289,7 @@ img {
     display: flex;
     gap: 30px;
 }
-.activity .activity-title {
+.activity__title {
     text-align: center;
     margin-bottom: 50px;
 
@@ -294,22 +300,22 @@ img {
     color: var(--main-txt-cl);
 
 }
-.section-features .list-iteam {
+.features .list-iteam {
     list-style: none;
 }
 /* Чим ми займаємось */
-.activity .activity-list-iteam {
+.activity-list__iteam {
     list-style: none;
     padding-bottom: 0px;
     margin-bottom: 0px;
 
 }
 
-.activity-container {
+.activity__container {
     position: relative;
 }
 
-.activity-desc {
+.activity__desc {
 
     position: absolute;
     bottom: 0%;
@@ -339,7 +345,7 @@ img {
 
 
 /* Наша команда */
-.team .team-list-item {
+.team-list-item {
     background-color: var(--next-bg-cl);
     list-style: none;
     width: 270px;
@@ -373,7 +379,7 @@ img {
 }
 
 
-.team .title-name {
+.team-compound__title-name {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -382,7 +388,7 @@ img {
     text-align: center;
     margin-bottom: 10px;
 }
-.team-list-title {
+.team-compound__list-title {
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
@@ -392,14 +398,14 @@ img {
 }
 
 
-.socials-list-item {
+.socials-list {
     display: flex;
     gap: 12px;
     justify-content:center;
     
 }
 
-.social-link {
+.socials-list__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -415,8 +421,8 @@ img {
 }
 
 
-.social-link:hover,
-.social-link:focus {
+.socials-list__link:hover,
+.socials-list__link:focus {
     fill: var(--next-bg-cl);
     background-color: var(--blue-bg-cl);
 
@@ -428,7 +434,7 @@ img {
     
 }
 /* Постійні клієнти*/
-.clients-section {
+.clients {
     background: var(--light-txt-cl);
 
     text-align: center;
@@ -438,16 +444,16 @@ img {
     margin-right: auto;
 }
 
-.title-clients-name {
+.clients__caption {
     font-size: 36px;
     line-height: calc(42px / 36px);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
-}
-.title-clients-name {
+
     margin-bottom: 30px;
 }
+
 .clients-list {
     display: flex;
     justify-content: center;
@@ -455,11 +461,11 @@ img {
     gap: 30px;
 }
 
-.client-item {
+.clients-list__item {
     width: 170px;
     height: 92px;
 }
-.client-list-item {
+.clients-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -473,8 +479,8 @@ img {
     transition-timing-function: var(--cubic-bezier);
 }
 
-.client-list-item:hover,
-.client-list-item:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
     fill: var(--blue-bg-cl);
     border: 1px solid var(--blue-bg-cl);
 }
