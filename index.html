@@ -679,8 +679,8 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" type="button" data-modal-close>
-          <svg class="modal-btn-icon" width="11" height="11">
+        <button class="modal__btn" type="button" data-modal-close>
+          <svg class="modal__icon" width="11" height="11">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
         </button>
@@ -690,75 +690,75 @@
           autocomplete="off"
           novalidate
         >
-          <strong class="register-form-title"
+          <strong class="register-form__title"
             >Залиште свої дані, ми вам передзвонимо</strong
           >
-          <div class="register-form-group" role="group">
-            <label class="register-form-field">
-              <span class="register-form-label">Ім'я</span>
-              <span class="register-form-label-box">
+          <div class="register-group" role="group">
+            <label class="register-group__field">
+              <span class="register-group__label">Ім'я</span>
+              <span class="register-group__box">
                 <input
-                  class="register-form-input"
+                  class="register-group__input"
                   type="text"
                   name="user-name"
                   required
                   minlength="3"
                 />
-                <svg class="register-form-icon" width="18" height="18">
+                <svg class="register-group__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-person-black"></use>
                 </svg>
               </span>
             </label>
 
-            <label class="register-form-field">
-              <span class="register-form-label">Телефон</span>
-              <span class="register-form-label-box">
+            <label class="register-group__field">
+              <span class="register-group__label">Телефон</span>
+              <span class="register-group__box">
                 <input
-                  class="register-form-input"
+                  class="register-group__input"
                   type="tel"
                   name="user-phone"
                   required
                   minlength="12"
                   maxlength="12"
                 />
-                <svg class="register-form-icon" width="18" height="18">
+                <svg class="register-group__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-phone-black"></use>
                 </svg>
               </span>
             </label>
 
-            <label class="register-form-field">
-              <span class="register-form-label">Пошта</span>
-              <span class="register-form-label-box">
+            <label class="register-group__field">
+              <span class="register-group__label">Пошта</span>
+              <span class="register-group__box">
                 <input
-                  class="register-form-input"
+                  class="register-group__input"
                   type="email"
                   name="user-email"
                   required
                 />
-                <svg class="register-form-icon" width="18" height="18">
+                <svg class="register-group__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-email-black"></use>
                 </svg>
               </span>
             </label>
 
-            <label class="register-form-field">
-              <span class="register-form-label">Коментар</span>
+            <label class="register-group__field">
+              <span class="register-group__label">Коментар</span>
               <textarea
-                class="register-form-message"
+                class="register-group__message"
                 rows="5"
                 name="comment"
                 placeholder="Введіть текст"
               ></textarea>
             </label>
           </div>
-          <label class="register-form-agreement">
+          <label class="register-group__agreement">
             <input
-              class="register-form-checkbox visually-hidden"
+              class="register-group__checkbox visually-hidden"
               type="checkbox"
               name="comment"
             />
-            <svg class="register-form-icons" width="16" height="15">
+            <svg class="register-group__icons" width="16" height="15">
               <use
                 class="icon-checked"
                 href="./images/icons.svg#icon-icon-check"
@@ -769,15 +769,15 @@
                 href="./images/icons.svg#icon-border-checkbox"
               ></use>
             </svg>
-            <span class="register-form-desc"
+            <span class="register-group__desc"
               >Погоджуюся з розсилкою та приймаю
-              <a class="register-form-link" href="" target="_blank"
+              <a class="register-group__link" href="" target="_blank"
                 >Умови договору</a
               ></span
             >
           </label>
 
-          <button class="register-form-btn" type="submit">Відправити</button>
+          <button class="register-group__btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>

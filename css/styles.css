@@ -758,21 +758,21 @@ transition: var(--anim-fast);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.ourprojects-iteam__box {
+.ourprojects-iteam-box {
     padding: 20px 24px;
     border-right: 1px solid #EEEEEE;;
     border-bottom: 1px solid #EEEEEE;;
     border-left: 1px solid #EEEEEE;;
 }
 
-.section-title {
+.ourprojects-iteam-box__title {
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
     color: var(--main-txt-cl);
 }
-.section-title-description {
+.ourprojects-iteam-box__description {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
@@ -820,7 +820,7 @@ transition: var(--anim-fast);
     transition: transform var(--anim-fast) var(--cubic-bezier);
 }
 
-.modal-btn {
+.modal__btn {
     position: absolute;
     top: 10px;
     
@@ -842,8 +842,8 @@ transition: var(--anim-fast);
     transition-timing-function: var(--cubic-bezier);
  
   }
-  .modal-btn:hover,
-  .modal-btn:focus {
+  .modal__btn:hover,
+  .modal__btn:focus {
     fill: var(--accent-txt-cl);
   }
 
@@ -851,7 +851,7 @@ transition: var(--anim-fast);
 /* Стилізація форм модального вікна */
 
 
-.register-form-title {
+.register-form__title {
     display: block;
     text-align: center;
     font-family: 'Roboto';
@@ -866,12 +866,12 @@ transition: var(--anim-fast);
     /* margin: 40px 40px 0px 40px; */
 }
 
-.register-form-group {
+.register-group {
     /* margin: 20px 40px; */
     margin-bottom: 20px;
 }
 
-.register-form-agreement {
+.register-group__agreement {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -891,10 +891,10 @@ transition: var(--anim-fast);
     left: 0;
 }
 
-.register-form-checkbox:checked + .register-form-icons .icon-checked {
+.register-group__checkbox:checked + .register-group__icons .icon-checked {
     opacity: 1;
 }
-.register-form-checkbox:checked + .register-form-icons .icon-unchecked {
+.register-group__checkbox:checked + .register-group__icons .icon-unchecked {
     opacity: 0;
 }
 
@@ -904,7 +904,7 @@ transition: var(--anim-fast);
 
 
 
-.register-form-btn {
+.register-group__btn {
     display: block;
     margin: 0 auto;
     padding: 10px 52px;
@@ -923,18 +923,18 @@ transition: var(--anim-fast);
     cursor: pointer;
 }
 
-.register-form-field {
+.register-group__field {
     display: block;
     margin-bottom: 10px;
     position: relative;
 }
-.register-form-field:last-child  {
+.register-group__field:last-child  {
     margin-bottom: 0px;
     
 }
 
 
-.register-form-label {
+.register-group__label {
     display: block;
 
     font-family: 'Roboto';
@@ -947,16 +947,16 @@ transition: var(--anim-fast);
     margin-bottom: 4px;
 }
 
-.register-form-label-box {
+.register-group__box {
     position: relative;
 }
-.register-form-icon {
+.register-group__icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%)
 }
 
-.register-form-input {
+.register-group__input {
     width: 100%;
     height: 40px;
     padding-left: 40px;
@@ -967,17 +967,17 @@ transition: var(--anim-fast);
     outline: transparent;
     transition: border-color var(--anim-fast);
 }
-.register-form-input:hover,
-.register-form-input:focus {
+.register-group__input:hover,
+.register-group__input:focus {
     border-color: var(--blue-bg-cl);
 }
 
-.register-form-input:hover + .register-form-icon,
-.register-form-input:focus + .register-form-icon {
+.register-group__input:hover + .register-group__icon,
+.register-group__input:focus + .register-group__icon {
     fill: var(--blue-bg-cl);
 }
 
-.register-form-icon {
+.register-group__icon {
 
     position: absolute;
     top: 50%;
@@ -986,7 +986,7 @@ transition: var(--anim-fast);
     transition: fill var(--anim-fast);
 }
 
-.register-form-message {
+.register-group__message {
     display: block;
     resize: none;
     outline: transparent;
@@ -1000,7 +1000,7 @@ transition: var(--anim-fast);
     border-radius: 4px;
 }
 
-.register-form-desc {
+.register-group__desc {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -1013,7 +1013,7 @@ transition: var(--anim-fast);
     padding-left: 9px;
 }
 
-.register-form-link {
+.register-group__link {
     color: var(--blue-bg-cl);
     text-decoration: underline;
 }
