@@ -477,16 +477,6 @@ img {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-.footer .logo-title {
-  margin-right: 0px;
-  padding-top: 0px;
-  margin-bottom: 20px;
-  padding-bottom: 0px;
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
-}
 .footer .link {
   font-size: 14px;
   line-height: 1.7142857143;
@@ -549,15 +539,7 @@ img {
   margin-top: 20px;
 }
 
-.logo-title__accent-1 {
-  color: #2196F3;
-}
-
-.logo-title__accent-2 {
-  color: #ffffff;
-}
-
-.logo-title .footer {
+.logo-title .footer-logo {
   margin-right: 0px;
   padding-top: 0px;
   margin-bottom: 20px;
@@ -567,10 +549,11 @@ img {
   font-size: 26px;
   line-height: 1.1923076923;
 }
-.logo-title .footer__accent-1 {
+
+.footer-logo__accent-1 {
   color: #2196F3;
 }
-.logo-title .footer__accent-2 {
+.footer-logo__accent-2 {
   color: #ffffff;
 }
 

@@ -14,16 +14,16 @@
         align-items: baseline;
         
     }
-    & .logo-title {
-        margin-right: 0px;
-        padding-top: 0px;
-        margin-bottom: 20px;
-        padding-bottom: 0px;
-        font-family: var(--secondary-font);
-        font-weight: 700;
-        font-size: 26px;
-        line-height: calc(31 / 26);
-    }
+    // & .logo-title {
+    //     margin-right: 0px;
+    //     padding-top: 0px;
+    //     margin-bottom: 20px;
+    //     padding-bottom: 0px;
+    //     font-family: var(--secondary-font);
+    //     font-weight: 700;
+    //     font-size: 26px;
+    //     line-height: calc(31 / 26);
+    // }
     & .link {
         font-size: 14px;
         line-height: calc(24 / 14);
@@ -72,10 +72,10 @@
     }
 }
 
-.logo-title__accent-1{
-    color: #2196F3;;
-}
+// .logo-title__accent-1{
+//     color: #2196F3;;
+// }
 
-.logo-title__accent-2 {
-    color: #ffffff;
-}
+// .logo-title__accent-2 {
+//     color: #ffffff;
+// }

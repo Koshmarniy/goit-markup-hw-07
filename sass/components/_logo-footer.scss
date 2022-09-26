@@ -1,4 +1,4 @@
-.logo-title .footer{
+.logo-title .footer-logo{
     margin-right: 0px;
     padding-top: 0px;
     margin-bottom: 20px;
@@ -7,6 +7,9 @@
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
+
+}
+.footer-logo {
     &__accent-1{
         color: #2196F3;;
     }
