@@ -315,7 +315,6 @@ img {
   background: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
-  max-width: 1600px;
   min-height: 708px;
   margin-left: auto;
   margin-right: auto;
@@ -464,7 +463,6 @@ img {
   background: var(--main-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
-  max-width: 1600px;
   min-height: 252px;
   margin-left: auto;
   margin-right: auto;
@@ -539,7 +537,7 @@ img {
   margin-top: 20px;
 }
 
-.logo-title .logo-title--footer {
+.logo-title--footer {
   display: block;
   margin-right: 0px;
   padding-top: 0px;
@@ -550,10 +548,10 @@ img {
   font-size: 26px;
   line-height: 1.1923076923;
 }
-.logo-title .logo-title--footer__accent-1 {
+.logo-title--footer__accent-1 {
   color: #2196F3;
 }
-.logo-title .logo-title--footer__accent-2 {
+.logo-title--footer__accent-2 {
   color: #ffffff;
 }
 
