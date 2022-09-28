@@ -493,7 +493,7 @@ img {
     
 } 
 
-.logo-title .footer-logo {
+.logo-title {
     margin-right: 0px;
     padding-top: 0px;
     margin-bottom: 20px;
@@ -503,11 +503,11 @@ img {
     font-size: 26px;
     line-height: calc(31 / 26);
 }
-.footer-logo__accent-1{
+.logo-title__accent-1{
     color: #2196F3;;
 }
 
-.footer-logo__accent-2 {
+.logo-title__accent-2 {
     color: #ffffff;
 }
 .address {

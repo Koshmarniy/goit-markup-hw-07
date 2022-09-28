@@ -539,7 +539,8 @@ img {
   margin-top: 20px;
 }
 
-.logo-title .footer-logo {
+.logo-title .logo-title--footer {
+  display: block;
   margin-right: 0px;
   padding-top: 0px;
   margin-bottom: 20px;
@@ -549,11 +550,10 @@ img {
   font-size: 26px;
   line-height: 1.1923076923;
 }
-
-.footer-logo__accent-1 {
+.logo-title .logo-title--footer__accent-1 {
   color: #2196F3;
 }
-.footer-logo__accent-2 {
+.logo-title .logo-title--footer__accent-2 {
   color: #ffffff;
 }
 
